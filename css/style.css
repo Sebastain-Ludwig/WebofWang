@@ -362,7 +362,7 @@ span.simpleCart_total {
 /*--banner-Part-starts-Here --*/
 /*--banner-starts--*/
 .banner{
-	background:url(../images/bnr-1.jpg) no-repeat;
+	background:url(../images/motor.jpg) no-repeat;
 	min-height:600px;
 	background-size:cover;
 	-webkit-background-size:cover;
@@ -371,7 +371,7 @@ span.simpleCart_total {
 	-ms-background-size:cover;
 }
 .banner1{
-	background:url(../images/bnr-2.jpg) no-repeat;
+	background:url(../images/fliter.jpg) no-repeat;
 	min-height:600px;
 	background-size:cover;
 	-webkit-background-size:cover;
@@ -380,7 +380,7 @@ span.simpleCart_total {
 	-ms-background-size:cover;
 }
 .banner2{
-	background:url(../images/bnr-3.jpg) no-repeat;
+	background:url(../images/oilseperator\(2\).jpg) no-repeat;
 	min-height:600px;
 	background-size:cover;
 	-webkit-background-size:cover;
