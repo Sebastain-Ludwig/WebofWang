@@ -5,6 +5,12 @@
             "request": "launch",
             "type": "vscode-edge-devtools.debug",
             "url": "C:\\Users\\34720\\ProjectTemplates\\Projects\\Web\\ModuleCompany\\index.html" // Provide your project's url to finish configuring
+        },
+        {
+            "name": "Chrome",
+            "request": "launch",
+            "type": "chrome",
+            "url": "C:\\Users\\34720\\ProjectTemplates\\Projects\\Web\\ModuleCompany\\index.html" // Provide your project's url to finish configuring
         }
     ]
 }
