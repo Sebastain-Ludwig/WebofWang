@@ -10,7 +10,7 @@
             "name": "Chrome",
             "request": "launch",
             "type": "chrome",
-            "url": "C:\\Users\\34720\\ProjectTemplates\\Projects\\Web\\ModuleCompany\\index.html" // Provide your project's url to finish configuring
+            "file": "/home/sebastian/Project/Weberver/WebofW/index.html" // Provide your project's url to finish configuring
         }
     ]
 }
