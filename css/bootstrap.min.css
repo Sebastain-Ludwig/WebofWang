@@ -8,7 +8,7 @@
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 
 html {
-    font-family: sans-serif;
+    font-family: 'Lato-Regular';
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%
 }
@@ -69,6 +69,22 @@ a.simpleCart_empty {
 .cart box_1 a:hover {
     text-decoration: none;
 }
+
+
+/* .navbar-nav>li>a.serbutton {
+    background: url(rss-feed-img.png) repeat 0px 0px;
+    width: 123px;
+    height: 44px;
+    display: block;
+}
+
+.navbar-nav>li>a.serbutton span {
+    display: none;
+}
+
+.navbar-nav>li>a.serbutton:hover {
+    background: url(rss-feed-img.png) repeat 0px -44px;
+} */
 
 article,
 aside,
@@ -8129,4 +8145,9 @@ button.close {
     .hidden-print {
         display: none!important
     }
+}
+
+
+}
+
 }
