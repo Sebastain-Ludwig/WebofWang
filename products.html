@@ -28,7 +28,7 @@
     <link href="css/memenu.css" rel="stylesheet" type="text/css" media="all" />
     <script type="text/javascript" src="js/memenu.js"></script>
     <script>
-        $(document).ready(function() {
+        $(document).ready(function () {
             $(".memenu").memenu();
         });
     </script>
@@ -278,87 +278,95 @@
                             <!-- <li class="grid"><a href="contact.html">Contact</a>
 							</li> -->
                         </ul>
-                        </div>
-                        <div class="clearfix"> </div>
-                    </div>
-                    <div class="col-md-3 header-right">
-                        <div class="search-bar">
-                            <input type="text" value="Search" onFocus="this.value = '';" onBlur="if (this.value == '') {this.value = 'Search';}">
-                            <input type="submit" value="">
-                        </div>
                     </div>
                     <div class="clearfix"> </div>
                 </div>
-            </div>
-        </div>
-        <!--bottom-header-->
-        <!--banner-starts-->
-        <div class="bnr" id="home">
-            <div id="top" class="callbacks_container">
-                <ul class="rslides" id="slider4">
-                    <li>
-                        <div class="banner">
-                        </div>
-                    </li>
-                    <li>
-                        <div class="banner1">
-                        </div>
-                    </li>
-                    <li>
-                        <div class="banner2">
-                        </div>
-                    </li>
-                </ul>
-            </div>
-            <div class="clearfix"> </div>
-        </div>
-        <!--banner-ends-->
-        <!--Slider-Starts-Here-->
-        <!-- <script src="js/responsiveslides.min.js"></script> -->
-        <section id="bootstrap">
-            <div class="container wow fadeInUp">
-                <div class="col-md-6">
-                    <img src="images/refrigeration spare parts/refrigeration spare parts/project picutre/3.jpg" class="img-responsive" alt="" />
+                <div class="col-md-3 header-right">
+                    <div class="search-bar">
+                        <input type="text" value="Search" onFocus="this.value = '';"
+                            onBlur="if (this.value == '') {this.value = 'Search';}">
+                        <input type="submit" value="">
+                    </div>
                 </div>
-                <div class="col-md-6">
-                    <h2>We cooperate with china big refrigeration equipment supplier</h2>
-                    <p><span class="glyphicon glyphicon-grain mai-icon"></span>We cooperate with china big refrigeration equipment supplier to enlarge our production scale and business range, offers the equipment and accessories of the fresh, chilled, frozen,
-                        quick frozen , cryopreservation and cold chain logistics for the fresh food, fruits and vegetables, poultry and aquatic products.</p>
-                    <p><span class="glyphicon glyphicon-grain mai-icon"></span> We also design and installation of cold storage project for the production processing to the call of the national energy saving and comply with the requirements of the global
-                        low –carbon life, accelerating product upgrading, innovation, excellence, ensuring the product quality.</p>
-                    <!-- <p><span class="glyphicon glyphicon-grain mai-icon"></span>help you<br>plan
+                <div class="clearfix"> </div>
+            </div>
+        </div>
+    </div>
+    <!--bottom-header-->
+    <!--banner-starts-->
+    <div class="bnr" id="home">
+        <div id="top" class="callbacks_container">
+            <ul class="rslides" id="slider4">
+                <li>
+                    <div class="banner">
+                    </div>
+                </li>
+                <li>
+                    <div class="banner1">
+                    </div>
+                </li>
+                <li>
+                    <div class="banner2">
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="clearfix"> </div>
+    </div>
+    <!--banner-ends-->
+    <!--Slider-Starts-Here-->
+    <!-- <script src="js/responsiveslides.min.js"></script> -->
+    <section id="bootstrap">
+        <div class="container wow fadeInUp">
+            <div class="col-md-6">
+                <img src="images/refrigeration spare parts/refrigeration spare parts/project picutre/3.jpg"
+                    class="img-responsive" alt="" />
+            </div>
+            <div class="col-md-6">
+                <h2>We cooperate with china big refrigeration equipment supplier</h2>
+                <p><span class="glyphicon glyphicon-grain mai-icon"></span>We cooperate with china big refrigeration
+                    equipment supplier to enlarge our production scale and business range, offers the equipment and
+                    accessories of the fresh, chilled, frozen,
+                    quick frozen , cryopreservation and cold chain logistics for the fresh food, fruits and vegetables,
+                    poultry and aquatic products.</p>
+                <p><span class="glyphicon glyphicon-grain mai-icon"></span> We also design and installation of cold
+                    storage project for the production processing to the call of the national energy saving and comply
+                    with the requirements of the global
+                    low –carbon life, accelerating product upgrading, innovation, excellence, ensuring the product
+                    quality.</p>
+                <!-- <p><span class="glyphicon glyphicon-grain mai-icon"></span>help you<br>plan
                 </p>
                 <p><span class="glyphicon glyphicon-grain mai-icon"></span>help you 2<br>build
                 </p> -->
-                </div>
             </div>
-        </section>
-        <script>
-            // You can also use "$(window).load(function() {"
-            $(function() {
-                // Slideshow 4
-                $("#slider4").responsiveSlides({
-                    auto: true,
-                    pager: true,
-                    nav: true,
-                    speed: 500,
-                    namespace: "callbacks",
-                    before: function() {
-                        $('.events').append("<li>before event fired.</li>");
-                    },
-                    after: function() {
-                        $('.events').append("<li>after event fired.</li>");
-                    }
-                });
-
+        </div>
+    </section>
+    <script>
+        // You can also use "$(window).load(function() {"
+        $(function () {
+            // Slideshow 4
+            $("#slider4").responsiveSlides({
+                auto: true,
+                pager: true,
+                nav: true,
+                speed: 500,
+                namespace: "callbacks",
+                before: function () {
+                    $('.events').append("<li>before event fired.</li>");
+                },
+                after: function () {
+                    $('.events').append("<li>after event fired.</li>");
+                }
             });
-        </script>
-        <!--End-slider-script-->
-        <!--about-starts-->
-        <div class="about">
-            <div class="container">
-                <div class="about-top grid-1">
-                    <!-- <div class="col-md-4 about-left">
+
+        });
+    </script>
+    <!--End-slider-script-->
+    <!--about-starts-->
+    <div class="about">
+        <div class="container">
+            <div class="about-top grid-1">
+                <!-- <div class="col-md-4 about-left">
 					<figure class="effect-bubba">
 						<img class="img-responsive" src="images/motor.jpg" alt="" />
 						<figcaption>
@@ -387,677 +395,750 @@
 						</figcaption>
 					</figure>
 				</div> -->
-                    <div class="clearfix"></div>
-                </div>
+                <div class="clearfix"></div>
             </div>
         </div>
-        <!--about-end-->
-        <!--product-starts-->
-        <div class="product">
-            <div class="container">
-                <div class="product-top">
-                    <section id="Cold-storage-door-components">
-                        <div class="product-one">
-                            <div class="col-md-3 product-left">
-                                <div class="product-main simpleCart_shelfItem">
-                                    <a href="single.html" class="mask"><img class="img-responsive zoom-img" src="images/refrigeration spare parts/refrigeration spare parts/filter/20190414210936575165.jpg" alt="" /></a>
-                                    <div class="product-bottom">
-                                        <h3>Fliter-1</h3>
-                                        <p>Explore Now</p>
-                                        <!-- <h4><a class="item_add" href="#"><i></i></a> <span class=" item_price">$ 329</span>
+    </div>
+    <!--about-end-->
+    <!--product-starts-->
+    <div class="product">
+        <div class="container">
+            <div class="product-top">
+                <section id="Cold-storage-door-components">
+                    <div class="product-one">
+                        <div class="col-md-3 product-left">
+                            <div class="product-main simpleCart_shelfItem">
+                                <a href="fliter.html" class="mask"><img class="img-responsive zoom-img"
+                                        src="images/refrigeration spare parts/refrigeration spare parts/filter/20190414210936575165.jpg"
+                                        alt="" /></a>
+                                <div class="product-bottom">
+                                    <h3>Fliter-1</h3>
+                                    <p>Explore Now</p>
+                                    <!-- <h4><a class="item_add" href="#"><i></i></a> <span class=" item_price">$ 329</span>
 									</h4> -->
-                                    </div>
-                                    <div class="srch">
-                                        <span>-50%</span>
-                                    </div>
+                                </div>
+                                <div class="srch">
+                                    <span></span>
                                 </div>
                             </div>
-                            <div class="col-md-3 product-left">
-                                <div class="product-main simpleCart_shelfItem">
-                                    <a href="single.html" class="mask"><img class="img-responsive zoom-img" src="images/refrigeration spare parts/refrigeration spare parts/filter/filter (2).jpg" alt="" /></a>
-                                    <div class="product-bottom">
-                                        <h3>Fliter-2</h3>
-                                        <p>Explore Now</p>
-                                        <!-- <h4><a class="item_add" href="#"><i></i></a> <span class=" item_price">$ 329</span>
-									</h4> -->
-                                    </div>
-                                    <div class="srch">
-                                        <span>-50%</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-3 product-left">
-                                <div class="product-main simpleCart_shelfItem">
-                                    <a href="single.html" class="mask"><img class="img-responsive zoom-img" src="images/refrigeration spare parts/refrigeration spare parts/filter/filter 1.jpg" alt="" /></a>
-                                    <div class="product-bottom">
-                                        <h3>Fliter-3</h3>
-                                        <p>Explore Now</p>
-                                        <!-- <h4><a class="item_add" href="#"><i></i></a> <span class=" item_price">$ 329</span>
-									</h4> -->
-                                    </div>
-                                    <div class="srch">
-                                        <span>-50%</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-3 product-left">
-                                <div class="product-main simpleCart_shelfItem">
-                                    <a href="single.html" class="mask"><img class="img-responsive zoom-img" src="images/refrigeration spare parts/refrigeration spare parts/filter/filter.jpg" alt="" /></a>
-                                    <div class="product-bottom">
-                                        <h3>Fliter-4</h3>
-                                        <p>Explore Now</p>
-                                        <!-- <h4><a class="item_add" href="#"><i></i></a> <span class=" item_price">$ 32900000000000000000</span>
-									</h4> -->
-                                    </div>
-                                    <div class="srch">
-                                        <span>-50%</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="clearfix"></div>
                         </div>
-                    </section>
-                    <section id="Compressor-unit">
-                        <div class="product-one">
-                            <div class="col-md-3 product-left">
-                                <div class="product-main simpleCart_shelfItem">
-                                    <a href="single.html" class="mask"><img class="img-responsive zoom-img" src="images/refrigeration spare parts/refrigeration spare parts/oil seperator/oil seperator (2).jpg" alt="" /></a>
-                                    <div class="product-bottom">
-                                        <h3>Oil seperator-1</h3>
-                                        <p>Explore Now</p>
-                                        <!-- <h4><a class="item_add" href="#"><i></i></a> <span class=" item_price">$ 329</span>
+                        <div class="col-md-3 product-left">
+                            <div class="product-main simpleCart_shelfItem">
+                                <a href="fliter.html" class="mask"><img class="img-responsive zoom-img"
+                                        src="images/refrigeration spare parts/refrigeration spare parts/filter/filter (2).jpg"
+                                        alt="" /></a>
+                                <div class="product-bottom">
+                                    <h3>Fliter-2</h3>
+                                    <p>Explore Now</p>
+                                    <!-- <h4><a class="item_add" href="#"><i></i></a> <span class=" item_price">$ 329</span>
 									</h4> -->
-                                    </div>
-                                    <div class="srch">
-                                        <span>-50%</span>
-                                    </div>
+                                </div>
+                                <div class="srch">
+                                    <span></span>
                                 </div>
                             </div>
-                            <div class="col-md-3 product-left">
-                                <div class="product-main simpleCart_shelfItem">
-                                    <a href="single.html" class="mask"><img class="img-responsive zoom-img" src="images/refrigeration spare parts/refrigeration spare parts/oil seperator/oil seperator 2.jpg" alt="" /></a>
-                                    <div class="product-bottom">
-                                        <h3>Oil seperator-2</h3>
-                                        <p>Explore Now</p>
-                                        <!-- <h4><a class="item_add" href="#"><i></i></a> <span class=" item_price">$ 329</span>
-									</h4> -->
-                                    </div>
-                                    <div class="srch">
-                                        <span>-50%</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-3 product-left">
-                                <div class="product-main simpleCart_shelfItem">
-                                    <a href="single.html" class="mask"><img class="img-responsive zoom-img" src="images/refrigeration spare parts/refrigeration spare parts/oil seperator/oil seperator.jpg" alt="" /></a>
-                                    <div class="product-bottom">
-                                        <h3>Oil seperator-3</h3>
-                                        <p>Explore Now</p>
-                                        <!-- <h4><a class="item_add" href="#"><i></i></a> <span class=" item_price">$ 329</span>
-									</h4> -->
-                                    </div>
-                                    <div class="srch">
-                                        <span>-50%</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-3 product-left">
-                                <div class="product-main simpleCart_shelfItem">
-                                    <a href="single.html" class="mask"><img class="img-responsive zoom-img" src="images\refrigeration spare parts\refrigeration spare parts\gas and liquid separator\gas and liquid seperator.jpg" alt="" /></a>
-                                    <div class="product-bottom">
-                                        <h3>Gas and liquid separator</h3>
-                                        <p>Explore Now</p>
-                                        <!-- <h4><a class="item_add" href="#"><i></i></a> <span class=" item_price">$ 329</span>
-									</h4> -->
-                                    </div>
-                                    <div class="srch">
-                                        <span>-50%</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="clearfix"></div>
                         </div>
-                    </section>
-                    <section id="Fan-blower">
-                        <div class="product-one">
-                            <div class="col-md-3 product-left">
-                                <div class="product-main simpleCart_shelfItem">
-                                    <a href="single.html" class="mask"><img class="img-responsive zoom-img" src="images/refrigeration spare parts/refrigeration spare parts/receiver/1-1412051636120-L.jpg" alt="" /></a>
-                                    <div class="product-bottom">
-                                        <h3>Receiver-1</h3>
-                                        <p>Explore Now</p>
-                                        <!-- <h4><a class="item_add" href="#"><i></i></a> <span class=" item_price">$ 329</span>
+                        <div class="col-md-3 product-left">
+                            <div class="product-main simpleCart_shelfItem">
+                                <a href="fliter.html" class="mask"><img class="img-responsive zoom-img"
+                                        src="images/refrigeration spare parts/refrigeration spare parts/filter/filter 1.jpg"
+                                        alt="" /></a>
+                                <div class="product-bottom">
+                                    <h3>Fliter-3</h3>
+                                    <p>Explore Now</p>
+                                    <!-- <h4><a class="item_add" href="#"><i></i></a> <span class=" item_price">$ 329</span>
 									</h4> -->
-                                    </div>
-                                    <div class="srch">
-                                        <span>-50%</span>
-                                    </div>
+                                </div>
+                                <div class="srch">
+                                    <span></span>
                                 </div>
                             </div>
-                            <div class="col-md-3 product-left">
-                                <div class="product-main simpleCart_shelfItem">
-                                    <a href="single.html" class="mask"><img class="img-responsive zoom-img" src="images/refrigeration spare parts/refrigeration spare parts/receiver/receiver 1.jpg" alt="" /></a>
-                                    <div class="product-bottom">
-                                        <h3>Receiver-2</h3>
-                                        <p>Explore Now</p>
-                                        <!-- <h4><a class="item_add" href="#"><i></i></a> <span class=" item_price">$ 329</span>
-									</h4> -->
-                                    </div>
-                                    <div class="srch">
-                                        <span>-50%</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-3 product-left">
-                                <div class="product-main simpleCart_shelfItem">
-                                    <a href="single.html" class="mask"><img class="img-responsive zoom-img" src="images/refrigeration spare parts/refrigeration spare parts/receiver/receiver.jpg" alt="" /></a>
-                                    <div class="product-bottom">
-                                        <h3>Receiver-3</h3>
-                                        <p>Explore Now</p>
-                                        <!-- <h4><a class="item_add" href="#"><i></i></a> <span class=" item_price">$ 329</span>
-									</h4> -->
-                                    </div>
-                                    <div class="srch">
-                                        <span>-50%</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-3 product-left">
-                                <div class="product-main simpleCart_shelfItem">
-                                    <a href="single.html" class="mask"><img class="img-responsive zoom-img" src="images/refrigeration spare parts/refrigeration spare parts/receiver/YX9OL]YQ}KEX])U~]JC@`IY.png" alt="" /></a>
-                                    <div class="product-bottom">
-                                        <h3>Receiver-4</h3>
-                                        <p>Explore Now</p>
-                                        <!-- <h4><a class="item_add" href="#"><i></i></a> <span class=" item_price">$ 329</span>
-									</h4> -->
-                                    </div>
-                                    <div class="srch">
-                                        <span>-50%</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="clearfix"></div>
                         </div>
-                    </section>
-                    <section id="Filter">
-                        <div class="product-one">
-                            <div class="col-md-3 product-left">
-                                <div class="product-main simpleCart_shelfItem">
-                                    <a href="single.html" class="mask"><img class="img-responsive zoom-img" src="images/refrigeration spare parts/refrigeration spare parts/yasuojizu/IMG_3612.JPG" alt="" /></a>
-                                    <div class="product-bottom">
-                                        <h3>yasuoji</h3>
-                                        <p>Explore Now</p>
-                                        <!-- <h4><a class="item_add" href="#"><i></i></a> <span class=" item_price">$ 329</span>
+                        <div class="col-md-3 product-left">
+                            <div class="product-main simpleCart_shelfItem">
+                                <a href="fliter.html" class="mask"><img class="img-responsive zoom-img"
+                                        src="images/refrigeration spare parts/refrigeration spare parts/filter/filter.jpg"
+                                        alt="" /></a>
+                                <div class="product-bottom">
+                                    <h3>Fliter-4</h3>
+                                    <p>Explore Now</p>
+                                    <!-- <h4><a class="item_add" href="#"><i></i></a> <span class=" item_price">$ 32900000000000000000</span>
 									</h4> -->
-                                    </div>
-                                    <div class="srch">
-                                        <span>-50%</span>
-                                    </div>
+                                </div>
+                                <div class="srch">
+                                    <span></span>
                                 </div>
                             </div>
-                            <div class="col-md-3 product-left">
-                                <div class="product-main simpleCart_shelfItem">
-                                    <a href="single.html" class="mask"><img class="img-responsive zoom-img" src="images/refrigeration spare parts/refrigeration spare parts/yasuojizu/IMG_3613.JPG" alt="" /></a>
-                                    <div class="product-bottom">
-                                        <h3>Smart Watches</h3>
-                                        <p>Explore Now</p>
-                                        <!-- <h4><a class="item_add" href="#"><i></i></a> <span class=" item_price">$ 329</span>
-									</h4> -->
-                                    </div>
-                                    <div class="srch">
-                                        <span>-50%</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-3 product-left">
-                                <div class="product-main simpleCart_shelfItem">
-                                    <a href="single.html" class="mask"><img class="img-responsive zoom-img" src="images/refrigeration spare parts/refrigeration spare parts/yasuojizu/IMG_3733.JPG" alt="" /></a>
-                                    <div class="product-bottom">
-                                        <h3>Smart Watches</h3>
-                                        <p>Explore Now</p>
-                                        <!-- <h4><a class="item_add" href="#"><i></i></a> <span class=" item_price">$ 329</span>
-									</h4> -->
-                                    </div>
-                                    <div class="srch">
-                                        <span>-50%</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-3 product-left">
-                                <div class="product-main simpleCart_shelfItem">
-                                    <a href="single.html" class="mask"><img class="img-responsive zoom-img" src="images/refrigeration spare parts/refrigeration spare parts/yasuojizu/IMG_3734.JPG" alt="" /></a>
-                                    <div class="product-bottom">
-                                        <h3>Smart Watches</h3>
-                                        <p>Explore Now</p>
-                                        <!-- <h4><a class="item_add" href="#"><i></i></a> <span class=" item_price">$ 329</span>
-									</h4> -->
-                                    </div>
-                                    <div class="srch">
-                                        <span>-50%</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="clearfix"></div>
                         </div>
-                    </section>
-                    <section id="Gas-and-liqiud-seperator">
-                        <div class="product-one">
-                            <div class="col-md-3 product-left">
-                                <div class="product-main simpleCart_shelfItem">
-                                    <a href="single.html" class="mask"><img class="img-responsive zoom-img" src="images/refrigeration spare parts/refrigeration spare parts/fan blower/20190414000133450470.jpg" alt="" /></a>
-                                    <div class="product-bottom">
-                                        <h3>Fan blowers</h3>
-                                        <p>Explore Now</p>
-                                        <!-- <h4><a class="item_add" href="#"><i></i></a> <span class=" item_price">$ 329</span>
+                        <div class="clearfix"></div>
+                    </div>
+                </section>
+                <section id="Compressor-unit">
+                    <div class="product-one">
+                        <div class="col-md-3 product-left">
+                            <div class="product-main simpleCart_shelfItem">
+                                <a href="oil-seperator.html" class="mask"><img class="img-responsive zoom-img"
+                                        src="images/refrigeration spare parts/refrigeration spare parts/oil seperator/oil seperator (2).jpg"
+                                        alt="" /></a>
+                                <div class="product-bottom">
+                                    <h3>Oil seperator-1</h3>
+                                    <p>Explore Now</p>
+                                    <!-- <h4><a class="item_add" href="#"><i></i></a> <span class=" item_price">$ 329</span>
 									</h4> -->
-                                    </div>
-                                    <div class="srch">
-                                        <span>-50%</span>
-                                    </div>
+                                </div>
+                                <div class="srch">
+                                    <span></span>
                                 </div>
                             </div>
-                            <div class="col-md-3 product-left">
-                                <div class="product-main simpleCart_shelfItem">
-                                    <a href="single.html" class="mask"><img class="img-responsive zoom-img" src="images/refrigeration spare parts/refrigeration spare parts/refrigeration oil/2016051107210290795130.jpg" alt="" /></a>
-                                    <div class="product-bottom">
-                                        <h3>Refrigeration Oil</h3>
-                                        <p>Explore Now</p>
-                                        <!-- <h4><a class="item_add" href="#"><i></i></a> <span class=" item_price">$ 329</span>
-									</h4> -->
-                                    </div>
-                                    <div class="srch">
-                                        <span>-50%</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-3 product-left">
-                                <div class="product-main simpleCart_shelfItem">
-                                    <a href="single.html" class="mask"><img class="img-responsive zoom-img" src="images/refrigeration spare parts/refrigeration spare parts/spare parts/1-141205163I60-L.jpg" alt="" /></a>
-                                    <div class="product-bottom">
-                                        <h3>Parts</h3>
-                                        <p>Explore Now</p>
-                                        <!-- <h4><a class="item_add" href="#"><i></i></a> <span class=" item_price">$ 329</span>
-									</h4> -->
-                                    </div>
-                                    <div class="srch">
-                                        <span>-50%</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-3 product-left">
-                                <div class="product-main simpleCart_shelfItem">
-                                    <a href="single.html" class="mask"><img class="img-responsive zoom-img" src="images/refrigeration spare parts/refrigeration spare parts/spare parts/1-1412051624570-L.jpg" alt="" /></a>
-                                    <div class="product-bottom">
-                                        <h3>Parts</h3>
-                                        <p>Explore Now</p>
-                                        <!-- <h4><a class="item_add" href="#"><i></i></a> <span class=" item_price">$ 329</span>
-									</h4> -->
-                                    </div>
-                                    <div class="srch">
-                                        <span>-50%</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="clearfix"></div>
                         </div>
-                    </section>
-                    <section id="Oil-seperator">
-                        <div class="product-one">
-                            <div class="col-md-3 product-left">
-                                <div class="product-main simpleCart_shelfItem">
-                                    <a href="single.html" class="mask"><img class="img-responsive zoom-img" src="images/refrigeration spare parts/refrigeration spare parts/spare parts/1-1412051640560-L.jpg" alt="" /></a>
-                                    <div class="product-bottom">
-                                        <h3>Parts</h3>
-                                        <p>Explore Now</p>
-                                        <!-- <h4><a class="item_add" href="#"><i></i></a> <span class=" item_price">$ 329</span>
+                        <div class="col-md-3 product-left">
+                            <div class="product-main simpleCart_shelfItem">
+                                <a href="oil-seperator.html" class="mask"><img class="img-responsive zoom-img"
+                                        src="images/refrigeration spare parts/refrigeration spare parts/oil seperator/oil seperator 2.jpg"
+                                        alt="" /></a>
+                                <div class="product-bottom">
+                                    <h3>Oil seperator-2</h3>
+                                    <p>Explore Now</p>
+                                    <!-- <h4><a class="item_add" href="#"><i></i></a> <span class=" item_price">$ 329</span>
 									</h4> -->
-                                    </div>
-                                    <div class="srch">
-                                        <span>-50%</span>
-                                    </div>
+                                </div>
+                                <div class="srch">
+                                    <span></span>
                                 </div>
                             </div>
-                            <div class="col-md-3 product-left">
-                                <div class="product-main simpleCart_shelfItem">
-                                    <a href="single.html" class="mask"><img class="img-responsive zoom-img" src="images/refrigeration spare parts/refrigeration spare parts/spare parts/1-1412051641370-L.jpg" alt="" /></a>
-                                    <div class="product-bottom">
-                                        <h3>Parts</h3>
-                                        <p>Explore Now</p>
-                                        <!-- <h4><a class="item_add" href="#"><i></i></a> <span class=" item_price">$ 329</span>
-									</h4> -->
-                                    </div>
-                                    <div class="srch">
-                                        <span>-50%</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-3 product-left">
-                                <div class="product-main simpleCart_shelfItem">
-                                    <a href="single.html" class="mask"><img class="img-responsive zoom-img" src="images/refrigeration spare parts/refrigeration spare parts/spare parts/1-141205164314401.jpg" alt="" /></a>
-                                    <div class="product-bottom">
-                                        <h3>Parts</h3>
-                                        <p>Explore Now</p>
-                                        <!-- <h4><a class="item_add" href="#"><i></i></a> <span class=" item_price">$ 329</span>
-									</h4> -->
-                                    </div>
-                                    <div class="srch">
-                                        <span>-50%</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-3 product-left">
-                                <div class="product-main simpleCart_shelfItem">
-                                    <a href="single.html" class="mask"><img class="img-responsive zoom-img" src="images/refrigeration spare parts/refrigeration spare parts/spare parts/851201241154138.jpg" alt="" /></a>
-                                    <div class="product-bottom">
-                                        <h3>Parts</h3>
-                                        <p>Explore Now</p>
-                                        <!-- <h4><a class="item_add" href="#"><i></i></a> <span class=" item_price">$ 329</span>
-									</h4> -->
-                                    </div>
-                                    <div class="srch">
-                                        <span>-50%</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="clearfix"></div>
                         </div>
-                    </section>
-                    <section id="Cold-storage-door-components">
-                        <div class="product-one">
-                            <div class="col-md-3 product-left">
-                                <div class="product-main simpleCart_shelfItem">
-                                    <img class="img-responsive zoom-img" src="images/refrigeration spare parts/refrigeration spare parts/spare parts/3162013415153543.JPG" alt="" />
-                                    <div class="product-bottom">
-                                        <h3>Parts</h3>
-                                        <p>Explore Now</p>
-                                        <!-- <h4><a class="item_add" href="#"><i></i></a> <span class=" item_price">$ 329</span>
+                        <div class="col-md-3 product-left">
+                            <div class="product-main simpleCart_shelfItem">
+                                <a href="oil-seperator.html" class="mask"><img class="img-responsive zoom-img"
+                                        src="images/refrigeration spare parts/refrigeration spare parts/oil seperator/oil seperator.jpg"
+                                        alt="" /></a>
+                                <div class="product-bottom">
+                                    <h3>Oil seperator-3</h3>
+                                    <p>Explore Now</p>
+                                    <!-- <h4><a class="item_add" href="#"><i></i></a> <span class=" item_price">$ 329</span>
 									</h4> -->
-                                    </div>
-                                    <div class="srch">
-                                        <span>-50%</span>
-                                    </div>
+                                </div>
+                                <div class="srch">
+                                    <span></span>
                                 </div>
                             </div>
-                            <div class="col-md-3 product-left">
-                                <div class="product-main simpleCart_shelfItem">
-                                    <img class="img-responsive zoom-img" src="images/refrigeration spare parts/refrigeration spare parts/spare parts/7922010713153028.jpg" alt="" />
-                                    <div class="product-bottom">
-                                        <h3>Parts</h3>
-                                        <p>Explore Now</p>
-                                        <!-- <h4><a class="item_add" href="#"><i></i></a> <span class=" item_price">$ 329</span>
-									</h4> -->
-                                    </div>
-                                    <div class="srch">
-                                        <span>-50%</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-3 product-left">
-                                <div class="product-main simpleCart_shelfItem">
-                                    <img class="img-responsive zoom-img" src="images/refrigeration spare parts/refrigeration spare parts/spare parts/20190413235935434518.jpg" alt="" />
-                                    <div class="product-bottom">
-                                        <h3>Parts</h3>
-                                        <p>Explore Now</p>
-                                        <!-- <h4><a class="item_add" href="#"><i></i></a> <span class=" item_price">$ 329</span>
-									</h4> -->
-                                    </div>
-                                    <div class="srch">
-                                        <span>-50%</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-3 product-left">
-                                <div class="product-main simpleCart_shelfItem">
-                                    <img class="img-responsive zoom-img" src="images/refrigeration spare parts/refrigeration spare parts/spare parts/20190414203938856613.jpg" alt="" />
-                                    <div class="product-bottom">
-                                        <h3>Parts</h3>
-                                        <p>Explore Now</p>
-                                        <!-- <h4><a class="item_add" href="#"><i></i></a> <span class=" item_price">$ 32900000000000000000</span>
-									</h4> -->
-                                    </div>
-                                    <div class="srch">
-                                        <span>-50%</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="clearfix"></div>
                         </div>
-                    </section>
-                    <section id="Cold-storage-door-components">
-                        <div class="product-one">
-                            <div class="col-md-3 product-left">
-                                <div class="product-main simpleCart_shelfItem">
-                                    <img class="img-responsive zoom-img" src="images/refrigeration spare parts/refrigeration spare parts/spare parts/201411241341191559354.jpg" alt="" />
-                                    <div class=" product-bottom">
-                                        <h3>Parts</h3>
-                                        <p>Explore Now</p>
-                                        <!-- <h4><a class="item_add" href="#"><i></i></a> <span class=" item_price">$ 329</span>
+                        <div class="col-md-3 product-left">
+                            <div class="product-main simpleCart_shelfItem">
+                                <a href="oil-seperator.html" class="mask"><img class="img-responsive zoom-img"
+                                        src="images\refrigeration spare parts\refrigeration spare parts\gas and liquid separator\gas and liquid seperator.jpg"
+                                        alt="" /></a>
+                                <div class="product-bottom">
+                                    <h3>Gas and liquid separator</h3>
+                                    <p>Explore Now</p>
+                                    <!-- <h4><a class="item_add" href="#"><i></i></a> <span class=" item_price">$ 329</span>
 									</h4> -->
-                                    </div>
-                                    <div class="srch">
-                                        <span>-50%</span>
-                                    </div>
+                                </div>
+                                <div class="srch">
+                                    <span></span>
                                 </div>
                             </div>
-                            <div class="col-md-3 product-left">
-                                <div class="product-main simpleCart_shelfItem">
-                                    <img class="img-responsive zoom-img" src="images/refrigeration spare parts/refrigeration spare parts/spare parts/2014112413040139010095.jpg" alt="" />
-                                    <div class="product-bottom">
-                                        <h3>Parts</h3>
-                                        <p>Explore Now</p>
-                                        <!-- <h4><a class="item_add" href="#"><i></i></a> <span class=" item_price">$ 329</span>
-									</h4> -->
-                                    </div>
-                                    <div class="srch">
-                                        <span>-50%</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-3 product-left">
-                                <div class="product-main simpleCart_shelfItem">
-                                    <img class="img-responsive zoom-img" src="images/refrigeration spare parts/refrigeration spare parts/spare parts/2015031412291057893974.jpg" alt="" />
-                                    <div class="product-bottom">
-                                        <h3>Parts</h3>
-                                        <p>Explore Now</p>
-                                        <!-- <h4><a class="item_add" href="#"><i></i></a> <span class=" item_price">$ 329</span>
-									</h4> -->
-                                    </div>
-                                    <div class="srch">
-                                        <span>-50%</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-3 product-left">
-                                <div class="product-main simpleCart_shelfItem">
-                                    <img class="img-responsive zoom-img" src="images/refrigeration spare parts/refrigeration spare parts/spare parts/2016062923174184514791.jpg" alt="" />
-                                    <div class="product-bottom">
-                                        <h3>Parts</h3>
-                                        <p>Explore Now</p>
-                                        <!-- <h4><a class="item_add" href="#"><i></i></a> <span class=" item_price">$ 32900000000000000000</span>
-									</h4> -->
-                                    </div>
-                                    <div class="srch">
-                                        <span>-50%</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="clearfix"></div>
                         </div>
-                    </section>
-                    <section id="Cold-storage-door-components">
-                        <div class="product-one">
-                            <div class="col-md-3 product-left">
-                                <div class="product-main simpleCart_shelfItem">
-                                    <img class="img-responsive zoom-img" src="images/refrigeration spare parts/refrigeration spare parts/spare parts/2019032610402510010786.jpg" alt="" />
-                                    <div class=" product-bottom">
-                                        <h3>Parts</h3>
-                                        <p>Explore Now</p>
-                                        <!-- <h4><a class="item_add" href="#"><i></i></a> <span class=" item_price">$ 329</span>
+                        <div class="clearfix"></div>
+                    </div>
+                </section>
+                <section id="Fan-blower">
+                    <div class="product-one">
+                        <div class="col-md-3 product-left">
+                            <div class="product-main simpleCart_shelfItem">
+                                <a href="receiver.html" class="mask"><img class="img-responsive zoom-img"
+                                        src="images/refrigeration spare parts/refrigeration spare parts/receiver/1-1412051636120-L.jpg"
+                                        alt="" /></a>
+                                <div class="product-bottom">
+                                    <h3>Receiver-1</h3>
+                                    <p>Explore Now</p>
+                                    <!-- <h4><a class="item_add" href="#"><i></i></a> <span class=" item_price">$ 329</span>
 									</h4> -->
-                                    </div>
-                                    <div class="srch">
-                                        <span>-50%</span>
-                                    </div>
+                                </div>
+                                <div class="srch">
+                                    <span></span>
                                 </div>
                             </div>
-                            <div class="col-md-3 product-left">
-                                <div class="product-main simpleCart_shelfItem">
-                                    <img class="img-responsive zoom-img" src="images/refrigeration spare parts/refrigeration spare parts/spare parts/HSKRLELTP}J8WA$6XF_B1WK.png" alt="" />
-                                    <div class="product-bottom">
-                                        <h3>Parts</h3>
-                                        <p>Explore Now</p>
-                                        <!-- <h4><a class="item_add" href="#"><i></i></a> <span class=" item_price">$ 329</span>
-									</h4> -->
-                                    </div>
-                                    <div class="srch">
-                                        <span>-50%</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-3 product-left">
-                                <div class="product-main simpleCart_shelfItem">
-                                    <img class="img-responsive zoom-img" src="images/refrigeration spare parts/refrigeration spare parts/spare parts/pressure gauge.png" alt="" />
-                                    <div class="product-bottom">
-                                        <h3>Parts</h3>
-                                        <p>Explore Now</p>
-                                        <!-- <h4><a class="item_add" href="#"><i></i></a> <span class=" item_price">$ 329</span>
-									</h4> -->
-                                    </div>
-                                    <div class="srch">
-                                        <span>-50%</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-3 product-left">
-                                <div class="product-main simpleCart_shelfItem">
-                                    <img class="img-responsive zoom-img" src="images/refrigeration spare parts/refrigeration spare parts/spare parts/pressure protector.png" alt="" />
-                                    <div class="product-bottom">
-                                        <h3>Parts</h3>
-                                        <p>Explore Now</p>
-                                        <!-- <h4><a class="item_add" href="#"><i></i></a> <span class=" item_price">$ 32900000000000000000</span>
-									</h4> -->
-                                    </div>
-                                    <div class="srch">
-                                        <span>-50%</span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="clearfix"></div>
                         </div>
-                    </section>
-                </div>
+                        <div class="col-md-3 product-left">
+                            <div class="product-main simpleCart_shelfItem">
+                                <a href="receiver.html" class="mask"><img class="img-responsive zoom-img"
+                                        src="images/refrigeration spare parts/refrigeration spare parts/receiver/receiver 1.jpg"
+                                        alt="" /></a>
+                                <div class="product-bottom">
+                                    <h3>Receiver-2</h3>
+                                    <p>Explore Now</p>
+                                    <!-- <h4><a class="item_add" href="#"><i></i></a> <span class=" item_price">$ 329</span>
+									</h4> -->
+                                </div>
+                                <div class="srch">
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 product-left">
+                            <div class="product-main simpleCart_shelfItem">
+                                <a href="receiver.html" class="mask"><img class="img-responsive zoom-img"
+                                        src="images/refrigeration spare parts/refrigeration spare parts/receiver/receiver.jpg"
+                                        alt="" /></a>
+                                <div class="product-bottom">
+                                    <h3>Receiver-3</h3>
+                                    <p>Explore Now</p>
+                                    <!-- <h4><a class="item_add" href="#"><i></i></a> <span class=" item_price">$ 329</span>
+									</h4> -->
+                                </div>
+                                <div class="srch">
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 product-left">
+                            <div class="product-main simpleCart_shelfItem">
+                                <a href="receiver.html" class="mask"><img class="img-responsive zoom-img"
+                                        src="images/refrigeration spare parts/refrigeration spare parts/receiver/YX9OL]YQ}KEX])U~]JC@`IY.png"
+                                        alt="" /></a>
+                                <div class="product-bottom">
+                                    <h3>Receiver-4</h3>
+                                    <p>Explore Now</p>
+                                    <!-- <h4><a class="item_add" href="#"><i></i></a> <span class=" item_price">$ 329</span>
+									</h4> -->
+                                </div>
+                                <div class="srch">
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </section>
+                <section id="Filter">
+                    <div class="product-one">
+                        <div class="col-md-3 product-left">
+                            <div class="product-main simpleCart_shelfItem">
+                                <a href="fan.html" class="mask"><img class="img-responsive zoom-img"
+                                        src="images/refrigeration spare parts/refrigeration spare parts/fan blower/motor and blade  separated 3.jpg"
+                                        alt="" /></a>
+                                <div class="product-bottom">
+                                    <h3>fan-1</h3>
+                                    <p>Explore Now</p>
+                                    <!-- <h4><a class="item_add" href="#"><i></i></a> <span class=" item_price">$ 329</span>
+									</h4> -->
+                                </div>
+                                <div class="srch">
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 product-left">
+                            <div class="product-main simpleCart_shelfItem">
+                                <a href="fan.html" class="mask"><img class="img-responsive zoom-img"
+                                        src="images/refrigeration spare parts/refrigeration spare parts/fan blower/motor blade intergrative type.png"
+                                        alt="" /></a>
+                                <div class="product-bottom">
+                                    <h3>fan-2</h3>
+                                    <p>Explore Now</p>
+                                    <!-- <h4><a class="item_add" href="#"><i></i></a> <span class=" item_price">$ 329</span>
+									</h4> -->
+                                </div>
+                                <div class="srch">
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 product-left">
+                            <div class="product-main simpleCart_shelfItem">
+                                <a href="fan.html" class="mask"><img class="img-responsive zoom-img"
+                                        src="images/refrigeration spare parts/refrigeration spare parts/fan blower/motor blade seperated 2.jpg"
+                                        alt="" /></a>
+                                <div class="product-bottom">
+                                    <h3>fan-3</h3>
+                                    <p>Explore Now</p>
+                                    <!-- <h4><a class="item_add" href="#"><i></i></a> <span class=" item_price">$ 329</span>
+									</h4> -->
+                                </div>
+                                <div class="srch">
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 product-left">
+                            <div class="product-main simpleCart_shelfItem">
+                                <a href="fan.html" class="mask"><img class="img-responsive zoom-img"
+                                        src="images/refrigeration spare parts/refrigeration spare parts/fan blower/motor blade seperated 4.jpg"
+                                        alt="" /></a>
+                                <div class="product-bottom">
+                                    <h3>fan-4</h3>
+                                    <p>Explore Now</p>
+                                    <!-- <h4><a class="item_add" href="#"><i></i></a> <span class=" item_price">$ 329</span>
+									</h4> -->
+                                </div>
+                                <div class="srch">
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </section>
+                <section id="Gas-and-liqiud-seperator">
+                    <div class="product-one">
+                        <div class="col-md-3 product-left">
+                            <div class="product-main simpleCart_shelfItem">
+                                <a href="fan.html" class="mask"><img class="img-responsive zoom-img"
+                                        src="images/refrigeration spare parts/refrigeration spare parts/fan blower/20190414000133450470.jpg"
+                                        alt="" /></a>
+                                <div class="product-bottom">
+                                    <h3>Fan blowers</h3>
+                                    <p>Explore Now</p>
+                                    <!-- <h4><a class="item_add" href="#"><i></i></a> <span class=" item_price">$ 329</span>
+									</h4> -->
+                                </div>
+                                <div class="srch">
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 product-left">
+                            <div class="product-main simpleCart_shelfItem">
+                                <a href="parts.html" class="mask"><img class="img-responsive zoom-img"
+                                        src="images/refrigeration spare parts/refrigeration spare parts/refrigeration oil/2016051107210290795130.jpg"
+                                        alt="" /></a>
+                                <div class="product-bottom">
+                                    <h3>Refrigeration Oil</h3>
+                                    <p>Explore Now</p>
+                                    <!-- <h4><a class="item_add" href="#"><i></i></a> <span class=" item_price">$ 329</span>
+									</h4> -->
+                                </div>
+                                <div class="srch">
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 product-left">
+                            <div class="product-main simpleCart_shelfItem">
+                                <a href="parts.html" class="mask"><img class="img-responsive zoom-img"
+                                        src="images/refrigeration spare parts/refrigeration spare parts/spare parts/1-141205163I60-L.jpg"
+                                        alt="" /></a>
+                                <div class="product-bottom">
+                                    <h3>Parts</h3>
+                                    <p>Explore Now</p>
+                                    <!-- <h4><a class="item_add" href="#"><i></i></a> <span class=" item_price">$ 329</span>
+									</h4> -->
+                                </div>
+                                <div class="srch">
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 product-left">
+                            <div class="product-main simpleCart_shelfItem">
+                                <a href="parts.html" class="mask"><img class="img-responsive zoom-img"
+                                        src="images/refrigeration spare parts/refrigeration spare parts/spare parts/1-1412051624570-L.jpg"
+                                        alt="" /></a>
+                                <div class="product-bottom">
+                                    <h3>Parts</h3>
+                                    <p>Explore Now</p>
+                                    <!-- <h4><a class="item_add" href="#"><i></i></a> <span class=" item_price">$ 329</span>
+									</h4> -->
+                                </div>
+                                <div class="srch">
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </section>
+                <section id="Oil-seperator">
+                    <div class="product-one">
+                        <div class="col-md-3 product-left">
+                            <div class="product-main simpleCart_shelfItem">
+                                <a href="parts.html" class="mask"><img class="img-responsive zoom-img"
+                                        src="images/refrigeration spare parts/refrigeration spare parts/spare parts/1-1412051640560-L.jpg"
+                                        alt="" /></a>
+                                <div class="product-bottom">
+                                    <h3>Parts</h3>
+                                    <p>Explore Now</p>
+                                    <!-- <h4><a class="item_add" href="#"><i></i></a> <span class=" item_price">$ 329</span>
+									</h4> -->
+                                </div>
+                                <div class="srch">
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 product-left">
+                            <div class="product-main simpleCart_shelfItem">
+                                <a href="parts.html" class="mask"><img class="img-responsive zoom-img"
+                                        src="images/refrigeration spare parts/refrigeration spare parts/spare parts/1-1412051641370-L.jpg"
+                                        alt="" /></a>
+                                <div class="product-bottom">
+                                    <h3>Parts</h3>
+                                    <p>Explore Now</p>
+                                    <!-- <h4><a class="item_add" href="#"><i></i></a> <span class=" item_price">$ 329</span>
+									</h4> -->
+                                </div>
+                                <div class="srch">
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 product-left">
+                            <div class="product-main simpleCart_shelfItem">
+                                <a href="parts.html" class="mask"><img class="img-responsive zoom-img"
+                                        src="images/refrigeration spare parts/refrigeration spare parts/spare parts/1-141205164314401.jpg"
+                                        alt="" /></a>
+                                <div class="product-bottom">
+                                    <h3>Parts</h3>
+                                    <p>Explore Now</p>
+                                    <!-- <h4><a class="item_add" href="#"><i></i></a> <span class=" item_price">$ 329</span>
+									</h4> -->
+                                </div>
+                                <div class="srch">
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 product-left">
+                            <div class="product-main simpleCart_shelfItem">
+                                <a href="parts.html" class="mask"><img class="img-responsive zoom-img"
+                                        src="images/refrigeration spare parts/refrigeration spare parts/spare parts/851201241154138.jpg"
+                                        alt="" /></a>
+                                <div class="product-bottom">
+                                    <h3>Parts</h3>
+                                    <p>Explore Now</p>
+                                    <!-- <h4><a class="item_add" href="#"><i></i></a> <span class=" item_price">$ 329</span>
+									</h4> -->
+                                </div>
+                                <div class="srch">
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </section>
+                <section id="Cold-storage-door-components">
+                    <div class="product-one">
+                        <div class="col-md-3 product-left">
+                            <div class="product-main simpleCart_shelfItem">
+                                <a href="parts.html" class="mask"><img class="img-responsive zoom-img"
+                                        src="images/refrigeration spare parts/refrigeration spare parts/spare parts/3162013415153543.JPG"
+                                        alt="" /></a>
+                                <div class="product-bottom">
+                                    <h3>Parts</h3>
+                                    <p>Explore Now</p>
+                                    <!-- <h4><a class="item_add" href="#"><i></i></a> <span class=" item_price">$ 329</span>
+									</h4> -->
+                                </div>
+                                <div class="srch">
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 product-left">
+                            <div class="product-main simpleCart_shelfItem">
+                                <a href="parts.html" class="mask"><img class="img-responsive zoom-img"
+                                    src="images/refrigeration spare parts/refrigeration spare parts/spare parts/7922010713153028.jpg"
+                                    alt="" /></a>
+                                <div class="product-bottom">
+                                    <h3>Parts</h3>
+                                    <p>Explore Now</p>
+                                    <!-- <h4><a class="item_add" href="#"><i></i></a> <span class=" item_price">$ 329</span>
+									</h4> -->
+                                </div>
+                                <div class="srch">
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 product-left">
+                            <div class="product-main simpleCart_shelfItem">
+                                <a href="parts.html" class="mask"><img class="img-responsive zoom-img"
+                                    src="images/refrigeration spare parts/refrigeration spare parts/spare parts/20190413235935434518.jpg"
+                                    alt="" /></a>
+                                <div class="product-bottom">
+                                    <h3>Parts</h3>
+                                    <p>Explore Now</p>
+                                    <!-- <h4><a class="item_add" href="#"><i></i></a> <span class=" item_price">$ 329</span>
+									</h4> -->
+                                </div>
+                                <div class="srch">
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 product-left">
+                            <div class="product-main simpleCart_shelfItem">
+                                 <a href="parts.html" class="mask"><img class="img-responsive zoom-img"
+                                    src="images/refrigeration spare parts/refrigeration spare parts/spare parts/20190414203938856613.jpg"
+                                    alt="" /></a>
+                                <div class="product-bottom">
+                                    <h3>Parts</h3>
+                                    <p>Explore Now</p>
+                                    <!-- <h4><a class="item_add" href="#"><i></i></a> <span class=" item_price">$ 32900000000000000000</span>
+									</h4> -->
+                                </div>
+                                <div class="srch">
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </section>
+                <section id="Cold-storage-door-components">
+                    <div class="product-one">
+                        <div class="col-md-3 product-left">
+                            <div class="product-main simpleCart_shelfItem">
+                                 <a href="parts.html" class="mask"><img class="img-responsive zoom-img"
+                                    src="images/refrigeration spare parts/refrigeration spare parts/spare parts/201411241341191559354.jpg"
+                                    alt="" /></a>
+                                <div class=" product-bottom">
+                                    <h3>Parts</h3>
+                                    <p>Explore Now</p>
+                                    <!-- <h4><a class="item_add" href="#"><i></i></a> <span class=" item_price">$ 329</span>
+									</h4> -->
+                                </div>
+                                <div class="srch">
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 product-left">
+                            <div class="product-main simpleCart_shelfItem">
+                                <a href="parts.html" class="mask"><img class="img-responsive zoom-img"
+                                    src="images/refrigeration spare parts/refrigeration spare parts/spare parts/2014112413040139010095.jpg"
+                                    alt="" /></a>
+                                <div class="product-bottom">
+                                    <h3>Parts</h3>
+                                    <p>Explore Now</p>
+                                    <!-- <h4><a class="item_add" href="#"><i></i></a> <span class=" item_price">$ 329</span>
+									</h4> -->
+                                </div>
+                                <div class="srch">
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 product-left">
+                            <div class="product-main simpleCart_shelfItem">
+                                 <a href="parts.html" class="mask"><img class="img-responsive zoom-img"
+                                    src="images/refrigeration spare parts/refrigeration spare parts/spare parts/2015031412291057893974.jpg"
+                                    alt="" /></a>
+                                <div class="product-bottom">
+                                    <h3>Parts</h3>
+                                    <p>Explore Now</p>
+                                    <!-- <h4><a class="item_add" href="#"><i></i></a> <span class=" item_price">$ 329</span>
+									</h4> -->
+                                </div>
+                                <div class="srch">
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 product-left">
+                            <div class="product-main simpleCart_shelfItem">
+                                 <a href="parts.html" class="mask"><img class="img-responsive zoom-img"
+                                    src="images/refrigeration spare parts/refrigeration spare parts/spare parts/2016062923174184514791.jpg"
+                                    alt="" /></a>
+                                <div class="product-bottom">
+                                    <h3>Parts</h3>
+                                    <p>Explore Now</p>
+                                    <!-- <h4><a class="item_add" href="#"><i></i></a> <span class=" item_price">$ 32900000000000000000</span>
+									</h4> -->
+                                </div>
+                                <div class="srch">
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </section>
+                <section id="Cold-storage-door-components">
+                    <div class="product-one">
+                        <div class="col-md-3 product-left">
+                            <div class="product-main simpleCart_shelfItem">
+                                 <a href="parts.html" class="mask"><img class="img-responsive zoom-img"
+                                    src="images/refrigeration spare parts/refrigeration spare parts/spare parts/2019032610402510010786.jpg"
+                                    alt="" /></a>
+                                <div class=" product-bottom">
+                                    <h3>Parts</h3>
+                                    <p>Explore Now</p>
+                                    <!-- <h4><a class="item_add" href="#"><i></i></a> <span class=" item_price">$ 329</span>
+									</h4> -->
+                                </div>
+                                <div class="srch">
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 product-left">
+                            <div class="product-main simpleCart_shelfItem">
+                                 <a href="parts.html" class="mask"><img class="img-responsive zoom-img"
+                                    src="images/refrigeration spare parts/refrigeration spare parts/spare parts/HSKRLELTP}J8WA$6XF_B1WK.png"
+                                    alt="" /></a>
+                                <div class="product-bottom">
+                                    <h3>Parts</h3>
+                                    <p>Explore Now</p>
+                                    <!-- <h4><a class="item_add" href="#"><i></i></a> <span class=" item_price">$ 329</span>
+									</h4> -->
+                                </div>
+                                <div class="srch">
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 product-left">
+                            <div class="product-main simpleCart_shelfItem">
+                                 <a href="parts.html" class="mask"><img class="img-responsive zoom-img"
+                                    src="images/refrigeration spare parts/refrigeration spare parts/spare parts/pressure gauge.png"
+                                    alt="" /></a>
+                                <div class="product-bottom">
+                                    <h3>Parts</h3>
+                                    <p>Explore Now</p>
+                                    <!-- <h4><a class="item_add" href="#"><i></i></a> <span class=" item_price">$ 329</span>
+									</h4> -->
+                                </div>
+                                <div class="srch">
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3 product-left">
+                            <div class="product-main simpleCart_shelfItem">
+                                 <a href="parts.html" class="mask"><img class="img-responsive zoom-img"
+                                    src="images/refrigeration spare parts/refrigeration spare parts/spare parts/pressure protector.png"
+                                    alt="" /></a>
+                                <div class="product-bottom">
+                                    <h3>Parts</h3>
+                                    <p>Explore Now</p>
+                                    <!-- <h4><a class="item_add" href="#"><i></i></a> <span class=" item_price">$ 32900000000000000000</span>
+									</h4> -->
+                                </div>
+                                <div class="srch">
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                </section>
             </div>
         </div>
-        <!--product-end-->
-        <!--information-starts-->
-        <div class="information">
-            <div class="container">
-                <div class="infor-top">
-                    <div class="col-md-3 infor-left">
-                        <h3>Follow Us</h3>
-                        <ul>
-                            <li><a href="#"><span class="fb"></span>
-								<h6>Facebook</h6>
-							</a></li>
-                            <li><a href="#"><span class="twit"></span>
-								<h6>Twitter</h6>
-							</a></li>
-                            <li><a href="#"><span class="google"></span>
-								<h6>Google+</h6>
-							</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-md-3 infor-left">
-                        <h3>Information</h3>
-                        <ul>
-                            <li>
-                                <a href="#">
-                                    <p>Specials</p>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <p>New Products</p>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <p>Our Stores</p>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="contact.html">
-                                    <p>Contact Us</p>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <p>Top Sellers</p>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-md-3 infor-left">
-                        <h3>My Account</h3>
-                        <ul>
-                            <li>
-                                <a href="account.html">
-                                    <p>My Account</p>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <p>My Credit slips</p>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <p>My Merchandise returns</p>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <p>My Personal info</p>
-                                </a>
-                            </li>
-                            <li>
-                                <a href="#">
-                                    <p>My Addresses</p>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-md-3 infor-left">
-                        <h3>Store Information</h3>
-                        <h4>The company name,
-                            <span>Lorem ipsum dolor,</span> Glasglow Dr 40 Fe 72.
-                        </h4>
-                        <h5>+955 123 4567</h5>
-                        <p><a href="mailto:example@email.com">contact@example.com</a></p>
-                    </div>
-                    <div class="clearfix"></div>
+    </div>
+    <!--product-end-->
+    <!--information-starts-->
+    <div class="information">
+        <div class="container">
+            <div class="infor-top">
+                <div class="col-md-3 infor-left">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li><a href="#"><span class="fb"></span>
+                                <h6>Facebook</h6>
+                            </a></li>
+                        <li><a href="#"><span class="twit"></span>
+                                <h6>Twitter</h6>
+                            </a></li>
+                        <li><a href="#"><span class="google"></span>
+                                <h6>Google+</h6>
+                            </a></li>
+                    </ul>
                 </div>
+                <div class="col-md-3 infor-left">
+                    <h3>Information</h3>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <p>Specials</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <p>New Products</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <p>Our Stores</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="contact.html">
+                                <p>Contact Us</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <p>Top Sellers</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3 infor-left">
+                    <h3>My Account</h3>
+                    <ul>
+                        <li>
+                            <a href="account.html">
+                                <p>My Account</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <p>My Credit slips</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <p>My Merchandise returns</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <p>My Personal info</p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <p>My Addresses</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-3 infor-left">
+                    <h3>Store Information</h3>
+                    <h4>The company name,
+                        <span>Lorem ipsum dolor,</span> Glasglow Dr 40 Fe 72.
+                    </h4>
+                    <h5>+955 123 4567</h5>
+                    <p><a href="mailto:example@email.com">contact@example.com</a></p>
+                </div>
+                <div class="clearfix"></div>
             </div>
         </div>
-        <!--information-end-->
-        <!--footer-starts-->
-        <div class="footer">
-            <div class="container">
-                <div class="footer-top">
-                    <div class="col-md-6 footer-left">
-                        <form>
-                            <input type="text" value="Enter Your Email" onFocus="this.value = '';" onBlur="if (this.value == '') {this.value = 'Enter Your Email';}">
-                            <input type="submit" value="Subscribe">
-                        </form>
-                    </div>
-                    <div class="col-md-6 footer-right">
-                        <p>Copyright &copy;COOL REF CROP's web by Sebastian.All rights reserved.</p>
-                    </div>
-                    <div class="clearfix"></div>
+    </div>
+    <!--information-end-->
+    <!--footer-starts-->
+    <div class="footer">
+        <div class="container">
+            <div class="footer-top">
+                <div class="col-md-6 footer-left">
+                    <form>
+                        <input type="text" value="Enter Your Email" onFocus="this.value = '';"
+                            onBlur="if (this.value == '') {this.value = 'Enter Your Email';}">
+                        <input type="submit" value="Subscribe">
+                    </form>
                 </div>
+                <div class="col-md-6 footer-right">
+                    <p>Copyright &copy;COOL REF CROP's web by Sebastian.All rights reserved.</p>
+                </div>
+                <div class="clearfix"></div>
             </div>
         </div>
-        <!--footer-end-->
+    </div>
+    <!--footer-end-->
 </body>
 
 </html>
